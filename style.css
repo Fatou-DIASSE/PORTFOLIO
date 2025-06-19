@@ -1,0 +1,140 @@
+/* Style global pour la page (application à tout le corps de la page) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9f9; /* Couleur de fond */
+ }
+ 
+ 
+ /* Menu de navigation (utilisation de la classe pour styliser la navigation) */
+ nav ul {
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments du menu */
+    background-color: #f9f9f9; /* Couleur de fond du menu */
+    padding: 10px;
+ }
+ 
+ 
+ nav ul li {
+    list-style-type: none; /* Supprime les puces des éléments de la liste */
+    margin: 0 20px; /* Espacement entre les liens du menu */
+ }
+ 
+ 
+ nav ul li a {
+    color: rgb(19, 177, 239); /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 18px;
+ }
+ 
+ 
+ /* Section Accueil */
+ #Accueil {
+    padding: 50px;
+    text-align: center;
+    background-color: hwb(195 95% 4%); /* Couleur de fond différente pour la section d'accueil */
+ }
+ 
+ 
+  /* Section Profil (nouveau style pour la section Profil) */
+ #profile {
+    padding: 20px;
+    background-color: #10a6e6; /* Fond bleu */
+    border-bottom: 10px solid #f7f8f9; /* Ligne de séparation avec les autres sections */
+ }
+ 
+ 
+ /* Conteneur pour l'image et la description du profil */
+ .profile-container {
+    display: flex; /* Affiche l'image et le texte côte à côte */
+    align-items: center; /* Centre verticalement l'image par rapport au texte */
+    justify-content: center; /* Centre horizontalement l'ensemble */
+ }
+ 
+ 
+ /* Style pour l'image de profil */
+ .profile-picture {
+    width: 150px; /* Largeur de l'image de profil */
+    height: 150px; /* Hauteur de l'image */
+    border-radius: 50%; /* Rend l'image ronde */
+    margin-right: 25px; /* Espace entre l'image et le texte */
+    border: 1px solid #08f3fb; /* Bordure autour de l'image */
+ }
+ 
+ 
+ /* Description du profil */
+ .profile-description {
+    max-width: 600px; /* Largeur maximale de la description */
+ }
+ 
+ 
+ /* Style pour les autres sections (Expériences, Réalisations, etc.) */
+ #competences, #projets, #contact {
+    padding: 50px;
+    background-color: rgb(240, 244, 244); /* Fond blanc pour ces sections */
+    border-bottom: 2px solid #1fdece; /* Ligne de séparation entre les sections */
+ }
+ 
+ 
+ /* Style pour les éléments dans competences et Projets */
+ .competences-item {
+    margin-bottom: 20px; /* Espace entre chaque élément */
+    padding: 10px;
+    border: 1px solid #04d0f9; /* Bordure grise autour de chaque élément */
+    border-radius: 5px; /* Coins arrondis */
+ }
+ .projets-item {
+    margin-bottom: 20px; /* Espace entre chaque élément */
+    padding: 10px;
+    border: 1px solid #04d0f9; /* Bordure grise autour de chaque élément */
+    border-radius: 5px; /* Coins arrondis */
+ }
+ /* Style du formulaire de contact */
+ form {
+    max-width: 600px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire */
+ }
+ 
+ 
+ /* Style des champs du formulaire (input, textarea) */
+ form input, form textarea {
+    width: 100%; /* Les champs occupent toute la largeur disponible */
+    padding: 10px;
+    margin-bottom: 10px; /* Espacement entre les champs */
+    border-radius: 5px; /* Coins arrondis */
+    border: 1px solid #ccc; /* Bordure grise pour les champs */
+ }
+ 
+ 
+ /* Style du bouton d'envoi */
+ form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Coins arrondis du bouton */
+    cursor: pointer;
+ }
+ 
+ 
+ /* Effet hover pour le bouton */
+ form button:hover {
+    background-color: #0aedf5; /* Couleur du bouton au survol */
+ }
+ 
+ 
+ /* Style du pied de page */
+ footer {
+    text-align: center; /* Centre le texte dans le pied de page */
+    padding: 20px;
+    background-color: #20e2f7; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+ }
+ 
+ 
+ /* Défilement fluide entre les sections */
+ html {
+    scroll-behavior: smooth; /* Active le défilement fluide pour les liens */
+ }
